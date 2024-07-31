@@ -1,3 +1,188 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typography-section-headline {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1875;
+  letter-spacing: 0em;
+  font-family: SF Pro Display;
+}
+
+.typography-headline-super {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-family: SF Pro Display;
+}
+
+.typography-hero-gallery-headline {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -0.009em;
+  font-family: SF Pro Display;
+}
+
+.typography-eyebrow-elevated {
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: SF Pro Display;
+}
+
+.typography-card-copy {
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text;
+}
+
+@media only screen and (min-width: 1441px) {
+  .section-hero .hero-copy {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .typography-headline-super {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -0.009em;
+    font-family: SF Pro Display;
+  }
+
+  .section-hero .hero-copy {
+    width: auto;
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-section-headline {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-hero-gallery-headline {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-card-copy {
+    font-size: 14px;
+    line-height: 1.2857742857;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text;
+  }
+
+  .typography-eyebrow-elevated {
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+    font-family: SF Pro Display;
+  }
+}
+
+@media only screen and (max-width: 874px) {
+  .section-hero .hero-copy {
+    margin-top: 10px;
+    width: auto;
+    max-width: 535px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .typography-headline-super {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display;
+  }
+
+  .section-hero .hero-copy {
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-section-headline {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-hero-gallery-headline {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-eyebrow-elevated {
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    font-family: SF Pro Display;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .section-hero .hero-copy {
+    max-width: 430px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .typography-headline-super {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-section-headline {
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    font-family: SF Pro Display;
+  }
+
+  .typography-hero-gallery-headline {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .section-hero .hero-copy {
+    max-width: 300px;
+  }
+}

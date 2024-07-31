@@ -1,25 +1,46 @@
 @font-face {
   font-family: 'Pretendard';
-  src: url('/fonts/Pretendard-Regular.otf') format('opentype');
+  src: url('/fonts/pretendard/Pretendard-Regular.otf') format('opentype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Pretendard';
-  src: url('/fonts/Pretendard-Medium.otf') format('opentype');
+  src: url('/fonts/pretendard/Pretendard-Medium.otf') format('opentype');
   font-weight: 500;
 }
 @font-face {
   font-family: 'Pretendard';
-  src: url('/fonts/Pretendard-SemiBold.otf') format('opentype');
+  src: url('/fonts/pretendard/Pretendard-SemiBold.otf') format('opentype');
   font-weight: 600;
 }
 @font-face {
   font-family: 'Pretendard';
-  src: url('/fonts/Pretendard-Bold.otf') format('opentype');
+  src: url('/fonts/pretendard/Pretendard-Bold.otf') format('opentype');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Pretendard';
-  src: url('/fonts/Pretendard-ExtraBold.otf') format('opentype');
+  src: url('/fonts/pretendard/Pretendard-ExtraBold.otf') format('opentype');
   font-weight: 800;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/sf-pro-display/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/sf-pro-display/SF-Pro-Display-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/sf-pro-display/SF-Pro-Display-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/sf-pro-display/SF-Pro-Display-Bold.otf') format('opentype');
+  font-weight: 700;
 }

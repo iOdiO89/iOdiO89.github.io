@@ -28,6 +28,12 @@ const config: Config = {
         black: '#262626',
         main: '#5E3BEE',
       },
+      screens: {
+        mo: { max: '480px' },
+        tab: { max: '734px' },
+        pc: { max: '1068px' },
+        big: { max: '1441px' },
+      },
     },
   },
   plugins: [require('tailwind-scrollbar-hide')],
