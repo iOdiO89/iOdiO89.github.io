@@ -27,6 +27,12 @@ const config: Config = {
         },
         black: '#262626',
         main: '#5E3BEE',
+        button: {
+          bg: 'rgba(0, 0, 0, 0.16)',
+          arrow: 'rgba(0, 0, 0, 0.56)',
+          hover: 'rgba(0, 0, 0, 0.64)',
+          active: 'rgba(0, 0, 0, 0.64)',
+        },
       },
       screens: {
         mo: { raw: 'only screen and (max-width: 480px)' }, // 0px ~ 480px
