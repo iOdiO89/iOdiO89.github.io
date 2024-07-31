@@ -29,10 +29,10 @@ const config: Config = {
         main: '#5E3BEE',
       },
       screens: {
-        mo: { max: '480px' },
-        tab: { max: '734px' },
-        pc: { max: '1068px' },
-        big: { max: '1441px' },
+        mo: { raw: 'only screen and (max-width: 480px)' }, // 0px ~ 480px
+        tab: { raw: 'only screen and (min-width: 481px) and (max-width: 734px)' }, // 481px ~ 734px
+        pc: { raw: 'only screen and (min-width: 735px) and (max-width: 1068px)' }, // 735px ~ 1068px
+        big: { raw: 'only screen and (min-width: 1441px)' }, // 1441px ~
       },
     },
   },
